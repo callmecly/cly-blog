@@ -1,0 +1,23 @@
+{
+  "name": "cly-blog",
+  "version": "1.0.0",
+  "description": "The repository is used to record something I learn and something I think!",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmecly/cly-blog.git"
+  },
+  "author": "cly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callmecly/cly-blog/issues"
+  },
+  "homepage": "https://github.com/callmecly/cly-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
