@@ -1,6 +1,7 @@
 module.exports = {
   title: '陈良源-cly',
   description: 'Just playing around',
+  base: '/cly-blog/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -22,7 +23,6 @@ function getJsSidebar (groupA, groupB) {
       collapsable: false,
       children: [
         '',
-        'test',
       ]
     },
     {
