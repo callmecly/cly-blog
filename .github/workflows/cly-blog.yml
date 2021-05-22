@@ -29,3 +29,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: cly-blog
           FOLDER: docs/.vuepress/dist
+          CLEAN: true
